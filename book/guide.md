@@ -1,4 +1,13 @@
+Preparing to merge `elvis.js` and `elvis-web` into this one repo.
+
 # Calling Elvis 🦀 🕸  🎸 📡 🚀 🪐 🛰
+
+![Rust](https://github.com/clearloop/leetcode-cli/workflows/Rust/badge.svg)
+[![crate](https://img.shields.io/crates/v/elvis.svg)](https://crates.io/crates/elvis)
+[![doc](https://img.shields.io/badge/current-docs-brightgreen.svg)](https://docs.rs/elvis/)
+[![dependency status](https://deps.rs/repo/github/clearloop/elvis/status.svg)](https://deps.rs/repo/github/clearloop/elvis)
+[![downloads](https://img.shields.io/crates/d/elvis.svg)](https://crates.io/crates/elvis)
+[![LICENSE](https://img.shields.io/crates/l/elvis.svg)](https://choosealicense.com/licenses/mit/)
 
 Is anybody home?
 
@@ -53,6 +62,7 @@ $ yarn create elvis-app
    │   Inside that directory, you can run several commands:      │
    │                                                             │
    │     - yarn dev:    Starts the development server.           │
+   │     - yarn docs:   Open The Elvis Book.                     │
    │     - yarn build:  Builds my-awesome-app for production.    │
    │     - yarn start:  Runs my-awesome-app production mode.     │
    │                                                             │
@@ -70,5 +80,5 @@ $ yarn create elvis-app
 Heartbreak Hotel.
 
 [1]: https://clearloop.github.io/elvis
-[1]: https://clearloop.github.io/elvis.js
+[2]: https://github.com/clearloop/elvis.js
 [3]: https://docs.rs/elvis
