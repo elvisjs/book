@@ -15,7 +15,7 @@ As we know, `Elvis` is a famous rock star, but both a famous rock song named `Ca
 
 For now, Elvis, the rock star, will rise, once again, **beyond** the internet —— truely your wasm web library, 🦀 + 🕸  => 💖
 
-[The Evlis Book][1] mainly talks about the usage of [elvis.js][2], and if you want to use `low-level` api rusting the web, plz check out [elvis' rust doc][3].
+[The Evlis Book][1] mainly talks about the usage of [calling-elvis][2], if you want to use `low-level` api rusting the web, plz check out [elvis' rust doc][3].
 
 ## Goals 🎯
 
@@ -79,6 +79,6 @@ $ yarn create elvis-app
 
 Heartbreak Hotel.
 
-[1]: https://clearloop.github.io/elvis
-[2]: https://github.com/clearloop/elvis.js
+[1]: https://elvisjs.github.io/the-elvis-book
+[2]: https://github.com/elvisjs/calling-elvis
 [3]: https://docs.rs/elvis
