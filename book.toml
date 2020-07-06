@@ -11,3 +11,4 @@ build-dir = "docs"
 [output.html]
 default-theme = "dark"
 preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/elvisjs/elvis"
