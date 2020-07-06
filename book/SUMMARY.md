@@ -2,7 +2,7 @@
 
 [Calling Elvis](./guide.md)
 - [Benchmark](./benchmark.md)
-- [Javascript Library](./lib.md)
+- [Library](./lib.md)
   - [Widgets](./widgets.md)
     - [Image](./image.md)
     - [Text](./text.md)
