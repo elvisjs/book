@@ -7,8 +7,8 @@
 [![crate](https://img.shields.io/crates/v/elvis.svg)](https://crates.io/crates/elvis)
 [![doc](https://img.shields.io/badge/current-docs-brightgreen.svg)](https://docs.rs/elvis/)
 [![downloads](https://img.shields.io/crates/d/elvis.svg)](https://crates.io/crates/elvis)
-[![gitter](https://img.shields.io/gitter/room/elvisjs/community)](https://gitter.im/elvisjs/community)
 [![LICENSE](https://img.shields.io/crates/l/elvis.svg)](https://choosealicense.com/licenses/mit/)
+[![Discord Chat](https://img.shields.io/discord/729613877184299019.svg?logo=discord&style=flat-square)](https://discord.gg/dxpefwy)
 
 
 Is anybody home?
@@ -17,7 +17,7 @@ As we know, `Elvis` is a famous rock star, both a famous rock song named `Callin
 
 For now, Elvis, the rock star will rise once again, **beyond** the internet —— truely your wasm web library, 🦀 + 🕸  => 💖
 
-[The Evlis Book][1] mainly talks about the usage of [calling-elvis][2], if you want to use `low-level` api rusting the web, plz check out [elvis' rust doc][3].
+[The Evlis Book][1] mainly talks about the `high-level` usage of elvis, if you want to use `low-level` api rusting the web, plz check out [elvis' rust doc][3].
 
 ## Goals 🎯
 
@@ -102,4 +102,4 @@ Heartbreak Hotel.
 [2]: https://github.com/elvisjs/calling-elvis
 [3]: https://docs.rs/elvis
 [rust.cc]: https://rustcc.cn
-[community]: https://elvisjs.github.io/the-elvis-book/community
+[community]: https://elvisjs.github.io/the-elvis-book/community.html
