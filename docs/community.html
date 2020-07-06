@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Gestures* - The Elvis Book</title>
+        <title>Community - The Elvis Book</title>
         
         
 
@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="guide.html">Calling Elvis</a></li><li class="chapter-item expanded "><strong aria-hidden="true">1.</strong> Why Elvis?</li><li><ol class="section"><li class="chapter-item expanded "><a href="benchmark.html"><strong aria-hidden="true">1.1.</strong> Benchmark</a></li></ol></li><li class="chapter-item expanded "><a href="lib.html"><strong aria-hidden="true">2.</strong> Library</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="widgets.html"><strong aria-hidden="true">2.1.</strong> Widgets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="image.html"><strong aria-hidden="true">2.1.1.</strong> Image</a></li><li class="chapter-item expanded "><a href="text.html"><strong aria-hidden="true">2.1.2.</strong> Text</a></li></ol></li><li class="chapter-item expanded "><a href="dom.html"><strong aria-hidden="true">2.2.</strong> DOM</a></li><li class="chapter-item expanded "><a href="events.html"><strong aria-hidden="true">2.3.</strong> Events*</a></li><li class="chapter-item expanded "><a href="gestures.html" class="active"><strong aria-hidden="true">2.4.</strong> Gestures*</a></li><li class="chapter-item expanded "><a href="layout.html"><strong aria-hidden="true">2.5.</strong> Layout</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="flex.html"><strong aria-hidden="true">2.5.1.</strong> Flex</a></li><li class="chapter-item expanded "><a href="grid.html"><strong aria-hidden="true">2.5.2.</strong> Grid</a></li><li class="chapter-item expanded "><a href="multi_column.html"><strong aria-hidden="true">2.5.3.</strong> MultiColumn</a></li></ol></li><li class="chapter-item expanded "><a href="router.html"><strong aria-hidden="true">2.6.</strong> Router</a></li><li class="chapter-item expanded "><a href="values.html"><strong aria-hidden="true">2.7.</strong> Values</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="color.html"><strong aria-hidden="true">2.7.1.</strong> Color</a></li><li class="chapter-item expanded "><a href="unit.html"><strong aria-hidden="true">2.7.2.</strong> Unit</a></li></ol></li><li class="chapter-item expanded "><a href="tutorial.html"><strong aria-hidden="true">2.8.</strong> Customize Widgets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tutorial/widgets.html"><strong aria-hidden="true">2.8.1.</strong> Widgets</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="community.html"><strong aria-hidden="true">3.</strong> Community</a></li><li class="chapter-item expanded "><a href="contributing.html"><strong aria-hidden="true">4.</strong> Contributing</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="guide.html">Calling Elvis</a></li><li class="chapter-item expanded "><strong aria-hidden="true">1.</strong> Why Elvis?</li><li><ol class="section"><li class="chapter-item expanded "><a href="benchmark.html"><strong aria-hidden="true">1.1.</strong> Benchmark</a></li></ol></li><li class="chapter-item expanded "><a href="lib.html"><strong aria-hidden="true">2.</strong> Library</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="widgets.html"><strong aria-hidden="true">2.1.</strong> Widgets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="image.html"><strong aria-hidden="true">2.1.1.</strong> Image</a></li><li class="chapter-item expanded "><a href="text.html"><strong aria-hidden="true">2.1.2.</strong> Text</a></li></ol></li><li class="chapter-item expanded "><a href="dom.html"><strong aria-hidden="true">2.2.</strong> DOM</a></li><li class="chapter-item expanded "><a href="events.html"><strong aria-hidden="true">2.3.</strong> Events*</a></li><li class="chapter-item expanded "><a href="gestures.html"><strong aria-hidden="true">2.4.</strong> Gestures*</a></li><li class="chapter-item expanded "><a href="layout.html"><strong aria-hidden="true">2.5.</strong> Layout</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="flex.html"><strong aria-hidden="true">2.5.1.</strong> Flex</a></li><li class="chapter-item expanded "><a href="grid.html"><strong aria-hidden="true">2.5.2.</strong> Grid</a></li><li class="chapter-item expanded "><a href="multi_column.html"><strong aria-hidden="true">2.5.3.</strong> MultiColumn</a></li></ol></li><li class="chapter-item expanded "><a href="router.html"><strong aria-hidden="true">2.6.</strong> Router</a></li><li class="chapter-item expanded "><a href="values.html"><strong aria-hidden="true">2.7.</strong> Values</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="color.html"><strong aria-hidden="true">2.7.1.</strong> Color</a></li><li class="chapter-item expanded "><a href="unit.html"><strong aria-hidden="true">2.7.2.</strong> Unit</a></li></ol></li><li class="chapter-item expanded "><a href="tutorial.html"><strong aria-hidden="true">2.8.</strong> Customize Widgets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tutorial/widgets.html"><strong aria-hidden="true">2.8.1.</strong> Widgets</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="community.html" class="active"><strong aria-hidden="true">3.</strong> Community</a></li><li class="chapter-item expanded "><a href="contributing.html"><strong aria-hidden="true">4.</strong> Contributing</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -203,65 +203,23 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#gestures" id="gestures">Gestures</a></h1>
-<blockquote>
-<p><strong>Note</strong>: In Progress.</p>
-</blockquote>
-<p><code>Event</code> and <code>Gesture</code> are out of wasm, this is not cool, but still awesome, <code>Elvis</code> implements these two trouble maker in <code>Typescript</code>, because <code>wasm-bindgen</code> doesn't support passing javascript <code>Object</code> to rust for now, BUT, it will be totally cool one day.</p>
-<h2><a class="header" href="#gesturedetector" id="gesturedetector">GestureDetector</a></h2>
-<pre><pre class="playground"><code class="language-rust">
-<span class="boring">#![allow(unused)]
-</span><span class="boring">fn main() {
-</span>pub trait GestureDetector {
-  fn on_double_tap(e: Event);
-  fn on_force_press_end(e: Event);
-  fn on_force_press_peak(e: Event);
-  fn on_force_press_start(e: Event);
-  fn on_force_press_update(e: Event);
-  fn on_horizontal_drag_cancel(e: Event);
-  fn on_horizontal_drag_down(e: Event);
-  fn on_horizontal_drag_end(e: Event);
-  fn on_horizontal_drag_start(e: Event);
-  fn on_horizontal_drag_update(e: Event);
-  fn on_long_press(e: Event);
-  fn on_long_press_end(e: Event);
-  fn on_long_press_move_update(e: Event);
-  fn on_long_press_start(e: Event);
-  fn on_long_press_up(e: Event);
-  fn on_pan_cancel(e: Event);
-  fn on_pan_down(e: Event);
-  fn on_pan_end(e: Event);
-  fn on_pan_start(e: Event);
-  fn on_pan_update(e: Event);
-  fn on_scale_end(e: Event);
-  fn on_scale_start(e: Event);
-  fn on_scale_update(e: Event);
-  fn on_secondary_tap_cancel(e: Event);
-  fn on_secondary_tap_down(e: Event);
-  fn on_secondary_tap_up(e: Event);
-  fn on_vertical_drag_cancel(e: Event);
-  fn on_vertical_drag_down(e: Event);
-  fn on_vertical_drag_end(e: Event);
-  fn on_vertical_drag_start(e: Event);
-  fn on_vertical_drag_update(e: Event);
-}
-<span class="boring">}
-</span></code></pre></pre>
-<p>Are we still cool now?</p>
-<p><code>Gesture</code> in <code>calling-elvis</code> implements with typescript, but <code>elvis</code> still keeps these apis, so we still can rust the web happily with <code>Elvis</code> without confuse.</p>
+                        <h1><a class="header" href="#community" id="community">Community</a></h1>
+<p><a href="https://discord.gg/dxpefwy"><img src="https://img.shields.io/discord/729613877184299019.svg?logo=discord&amp;style=flat-square" alt="Discord Chat" /></a></p>
+<h2><a class="header" href="#wechat" id="wechat">Wechat</a></h2>
+<p><img src="/static/wechat.png" alt="wechat-qr-code" /></p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
-                            <a rel="prev" href="events.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="tutorial/widgets.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
                         
 
                         
-                            <a rel="next" href="layout.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="contributing.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -273,13 +231,13 @@
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
-                    <a rel="prev" href="events.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="tutorial/widgets.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
                 
 
                 
-                    <a rel="next" href="layout.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="contributing.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 

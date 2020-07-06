@@ -5,12 +5,19 @@
         <meta charset="UTF-8">
         <title>Calling Elvis - The Elvis Book</title>
         
+        
+
+
+        <!-- Custom HTML head -->
+        
+
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
+        <link rel="icon" href="favicon.svg">
         <link rel="shortcut icon" href="favicon.png">
         <link rel="stylesheet" href="css/variables.css">
         <link rel="stylesheet" href="css/general.css">
@@ -19,8 +26,9 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
 
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="highlight.css">
@@ -80,8 +88,8 @@
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div id="sidebar-scrollbox" class="sidebar-scrollbox">
-                <ol class="chapter"><li class="expanded affix "><a href="guide.html">Calling Elvis</a></li><li class="expanded "><a href="benchmark.html"><strong aria-hidden="true">1.</strong> Benchmark</a></li><li class="expanded "><a href="lib.html"><strong aria-hidden="true">2.</strong> Library</a></li><li><ol class="section"><li class="expanded "><a href="widgets.html"><strong aria-hidden="true">2.1.</strong> Widgets</a></li><li><ol class="section"><li class="expanded "><a href="image.html"><strong aria-hidden="true">2.1.1.</strong> Image</a></li><li class="expanded "><a href="text.html"><strong aria-hidden="true">2.1.2.</strong> Text</a></li></ol></li><li class="expanded "><a href="dom.html"><strong aria-hidden="true">2.2.</strong> DOM</a></li><li class="expanded "><a href="events.html"><strong aria-hidden="true">2.3.</strong> Events*</a></li><li class="expanded "><a href="gestures.html"><strong aria-hidden="true">2.4.</strong> Gestures*</a></li><li class="expanded "><a href="layout.html"><strong aria-hidden="true">2.5.</strong> Layout</a></li><li><ol class="section"><li class="expanded "><a href="flex.html"><strong aria-hidden="true">2.5.1.</strong> Flex</a></li><li class="expanded "><a href="grid.html"><strong aria-hidden="true">2.5.2.</strong> Grid</a></li><li class="expanded "><a href="multi_column.html"><strong aria-hidden="true">2.5.3.</strong> MultiColumn</a></li></ol></li><li class="expanded "><a href="router.html"><strong aria-hidden="true">2.6.</strong> Router</a></li><li class="expanded "><a href="values.html"><strong aria-hidden="true">2.7.</strong> Values</a></li><li><ol class="section"><li class="expanded "><a href="color.html"><strong aria-hidden="true">2.7.1.</strong> Color</a></li><li class="expanded "><a href="unit.html"><strong aria-hidden="true">2.7.2.</strong> Unit</a></li></ol></li></ol></li><li class="expanded "><a href="tutorial.html"><strong aria-hidden="true">3.</strong> Tutorial</a></li><li><ol class="section"><li class="expanded "><a href="tutorial/widgets.html"><strong aria-hidden="true">3.1.</strong> Widgets</a></li></ol></li></ol>
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="guide.html">Calling Elvis</a></li><li class="chapter-item expanded "><strong aria-hidden="true">1.</strong> Why Elvis?</li><li><ol class="section"><li class="chapter-item expanded "><a href="benchmark.html"><strong aria-hidden="true">1.1.</strong> Benchmark</a></li></ol></li><li class="chapter-item expanded "><a href="lib.html"><strong aria-hidden="true">2.</strong> Library</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="widgets.html"><strong aria-hidden="true">2.1.</strong> Widgets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="image.html"><strong aria-hidden="true">2.1.1.</strong> Image</a></li><li class="chapter-item expanded "><a href="text.html"><strong aria-hidden="true">2.1.2.</strong> Text</a></li></ol></li><li class="chapter-item expanded "><a href="dom.html"><strong aria-hidden="true">2.2.</strong> DOM</a></li><li class="chapter-item expanded "><a href="events.html"><strong aria-hidden="true">2.3.</strong> Events*</a></li><li class="chapter-item expanded "><a href="gestures.html"><strong aria-hidden="true">2.4.</strong> Gestures*</a></li><li class="chapter-item expanded "><a href="layout.html"><strong aria-hidden="true">2.5.</strong> Layout</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="flex.html"><strong aria-hidden="true">2.5.1.</strong> Flex</a></li><li class="chapter-item expanded "><a href="grid.html"><strong aria-hidden="true">2.5.2.</strong> Grid</a></li><li class="chapter-item expanded "><a href="multi_column.html"><strong aria-hidden="true">2.5.3.</strong> MultiColumn</a></li></ol></li><li class="chapter-item expanded "><a href="router.html"><strong aria-hidden="true">2.6.</strong> Router</a></li><li class="chapter-item expanded "><a href="values.html"><strong aria-hidden="true">2.7.</strong> Values</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="color.html"><strong aria-hidden="true">2.7.1.</strong> Color</a></li><li class="chapter-item expanded "><a href="unit.html"><strong aria-hidden="true">2.7.2.</strong> Unit</a></li></ol></li><li class="chapter-item expanded "><a href="tutorial.html"><strong aria-hidden="true">2.8.</strong> Customize Widgets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tutorial/widgets.html"><strong aria-hidden="true">2.8.1.</strong> Widgets</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="community.html"><strong aria-hidden="true">3.</strong> Community</a></li><li class="chapter-item expanded "><a href="contributing.html"><strong aria-hidden="true">4.</strong> Contributing</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -89,38 +97,85 @@
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
+                <style>
+  header.warning {
+    background-color: rgb(242, 222, 222);
+    border-bottom-color: rgb(238, 211, 215);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.666667px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color: rgb(238, 211, 215);
+    border-left-style: solid;
+    border-left-width: 0.666667px;
+    border-right-color: rgb(238, 211, 215);
+    border-right-style: solid;
+    border-right-width: 0.666667px;
+    border-top-color: rgb(238, 211, 215);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: solid;
+    border-top-width: 0.666667px;
+    color: rgb(185, 74, 72);
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: center;
+  }
+</style>
+<header class='warning'>
+    Most chapters of this documentation is <strong>outdated</strong> temporarily now,
+    the arch of <a href="https://github.com/elvisjs/elvis">elvisjs</a> has just changed
+    these days.
 
-                        <h1 class="menu-title">The Elvis Book</h1>
+    The new documentation is coming, welcome to <a href="/community.html">join</a> and
+    work with us together!
+</header>
 
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">The Elvis Book</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        <a href="https://github.com/elvisjs/elvis" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
                     </div>
                 </div>
 
@@ -148,65 +203,79 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p>Preparing to merge <code>elvis.js</code> and <code>elvis-web</code> into this one repo.</p>
+                        <ul>
+<li>Preparing to merge <code>elvis.js</code> and <code>elvis-web</code> into this one repo.</li>
+<li>Trying to Rewrite the web client of <a href="https://rustcc.cn">rust.cc</a>...</li>
+</ul>
 <h1><a class="header" href="#calling-elvis--------" id="calling-elvis--------">Calling Elvis 🦀 🕸  🎸 📡 🚀 🪐 🛰</a></h1>
 <p><img src="https://github.com/clearloop/leetcode-cli/workflows/Rust/badge.svg" alt="Rust" />
 <a href="https://crates.io/crates/elvis"><img src="https://img.shields.io/crates/v/elvis.svg" alt="crate" /></a>
 <a href="https://docs.rs/elvis/"><img src="https://img.shields.io/badge/current-docs-brightgreen.svg" alt="doc" /></a>
-<a href="https://deps.rs/repo/github/clearloop/elvis"><img src="https://deps.rs/repo/github/clearloop/elvis/status.svg" alt="dependency status" /></a>
 <a href="https://crates.io/crates/elvis"><img src="https://img.shields.io/crates/d/elvis.svg" alt="downloads" /></a>
-<a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/crates/l/elvis.svg" alt="LICENSE" /></a></p>
+<a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/crates/l/elvis.svg" alt="LICENSE" /></a>
+<a href="https://discord.gg/dxpefwy"><img src="https://img.shields.io/discord/729613877184299019.svg?logo=discord&amp;style=flat-square" alt="Discord Chat" /></a></p>
 <p>Is anybody home?</p>
-<p>As we know, <code>Elvis</code> is a famous rock star, but both a famous rock song named <code>Calling Elvis</code> wrote by <code>Dire Straits</code> which inspired a unknown rock star writing down these chords.</p>
-<p>For now, Elvis, the rock star, will rise, once again, <strong>beyond</strong> the internet —— truely your wasm web library, 🦀 + 🕸  =&gt; 💖</p>
-<p><a href="https://clearloop.github.io/elvis">The Evlis Book</a> mainly talks about the usage of <a href="https://github.com/clearloop/elvis.js">elvis.js</a>, and if you want to use <code>low-level</code> api rusting the web, plz check out <a href="https://docs.rs/elvis">elvis' rust doc</a>.</p>
+<p>As we know, <code>Elvis</code> is a famous rock star, both a famous rock song named <code>Calling Elvis</code> wrote by <code>Dire Straits</code> which inspired a unknown rock star writing down these chords.</p>
+<p>For now, Elvis, the rock star will rise once again, <strong>beyond</strong> the internet —— truely your wasm web library, 🦀 + 🕸  =&gt; 💖</p>
+<p><a href="https://elvisjs.github.io/the-elvis-book">The Evlis Book</a> mainly talks about the <code>high-level</code> usage of elvis, if you want to use <code>low-level</code> api rusting the web, plz check out <a href="https://docs.rs/elvis">elvis' rust doc</a>.</p>
 <h2><a class="header" href="#goals-" id="goals-">Goals 🎯</a></h2>
-<p>Writing web pages in <strong>pure javascript</strong> using wasm bindings, <strong>without</strong> <code>jsx</code> or <code>any other</code> complex syntax, <strong>just javascript</strong>, of course, <strong>not</strong> writing <code>html</code> nor <code>css</code> either.</p>
+<p>Writing web pages in <strong>pure rust or javascript</strong> using wasm bindings, <strong>without</strong> <code>jsx</code> or <code>any other</code> complex syntax, of course, <strong>not</strong> writing <code>html</code> nor <code>css</code> either.</p>
 <h2><a class="header" href="#roll-up-for-the-magical-mystery-tour-" id="roll-up-for-the-magical-mystery-tour-">Roll up for the Magical Mystery Tour! 🌈</a></h2>
 <p>🧙‍♂️ 🤹‍♂️ Here we go! Roll up, roll up for the mystery tour, the magical mystery tour is waiting to take you away! Hoping to take you away! Coming to take you away! Dying to take you away, take you today! 🛸</p>
-<p>🎻 Let me take you down, cause I'm going to,</p>
-<pre><code class="language-js">import { Colors, Elvis, Text } from &quot;calling-elvis&quot;;
+<p>🎻 Let me take you down, cause I'm going to, <strong>Strawberry Fields</strong> 🧑‍🚀</p>
+<pre><pre class="playground"><code class="language-rust">
+<span class="boring">#![allow(unused)]
+</span><span class="boring">fn main() {
+</span>//! src/lib.rs
+use elvis::{
+    prelude::*,
+    widgets::{layouts::Center, Text, TextStyle},
+};
 
-const Home = Text(&quot;Pink is the Pig!&quot;, {
-  bold: true,
-  italic: true,
-  size: 10,
-  color: Colors.PinkAccent(),
-});
+#[elvis(route = &quot;index&quot;)]
+struct Index;
 
-new Elvis({
-  home: Home,
-}).calling();
-</code></pre>
-<p><strong>Strawberry Fields</strong> 🧑‍🚀</p>
+impl LifeCycle&lt;Center&gt; for Index {
+    fn new() -&gt; Center {
+        Center {
+            child: Text {
+                text: &quot;Pink is the Pig!!!&quot;.into(),
+                style: TextStyle::default(),
+            }
+        }
+    }
+}
+<span class="boring">}
+</span></code></pre></pre>
 <h2><a class="header" href="#21st-century-schizoid-magic-" id="21st-century-schizoid-magic-">21st Century Schizoid Magic 🍩</a></h2>
-<pre><code class="language-text">$ yarn create elvis-app
-✔ What is your project named? … my-awesome-app
-[ info ] Generating elvis files ...
-[ wait ] Installing elvis dependencies ...
-[ done ] Let's Roll up for the Magical Mystery Tour!
+<h4><a class="header" href="#install-epm" id="install-epm">Install epm</a></h4>
+<pre><code>$ cargo install epm
+$ epm
+epm 0.1.4
 
-   ┌─────────────────────────────────────────────────────────────┐
-   │                                                             │
-   │   Success! Created my-awesome-app at:                       │
-   │                                                             │
-   │     /path/to/my-awesome-app                                 │
-   │                                                             │
-   │   Inside that directory, you can run several commands:      │
-   │                                                             │
-   │     - yarn dev:    Starts the development server.           │
-   │     - yarn docs:   Open The Elvis Book.                     │
-   │     - yarn build:  Builds my-awesome-app for production.    │
-   │     - yarn start:  Runs my-awesome-app production mode.     │
-   │                                                             │
-   │   We suggest that you begin by typing:                      │
-   │                                                             │
-   │     - cd my-awesome-app                                     │
-   │     - yarn dev                                              │
-   │                                                             │
-   │                                                             │
-   └─────────────────────────────────────────────────────────────┘
+USAGE:
+    epm &lt;SUBCOMMAND&gt;
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+SUBCOMMANDS:
+    build    Build elvis app to the output dir
+    dev      Start development server
+    help     Prints this message or the help of the given subcommand(s)
+    init     Create a new elvis package in an existing directory
+    new      Create a new elvis package
 </code></pre>
+<h4><a class="header" href="#new-elvis-app" id="new-elvis-app">New elvis app</a></h4>
+<pre><code>$ epm new my-awesome-app
+</code></pre>
+<h4><a class="header" href="#start-development-server" id="start-development-server">Start development server</a></h4>
+<pre><code>$ cd my-awesome-app &amp;&amp; epm dev
+[INFO  warp::server] listening on http://0.0.0.0:3000
+</code></pre>
+<h2><a class="header" href="#community" id="community">Community</a></h2>
+<p>Welcome to join us! Check our community channels <a href="https://elvisjs.github.io/the-elvis-book/community.html">here</a>.</p>
 <h2><a class="header" href="#license" id="license">LICENSE</a></h2>
 <p>Heartbreak Hotel.</p>
 
@@ -231,7 +300,7 @@ new Elvis({
                 
 
                 
-                    <a href="benchmark.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="benchmark.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
@@ -240,14 +309,29 @@ new Elvis({
         </div>
 
         
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        
 
         
 
         
-        
+
         
         <script type="text/javascript">
-            window.playpen_copyable = true;
+            window.playground_copyable = true;
         </script>
         
 
