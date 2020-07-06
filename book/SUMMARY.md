@@ -1,7 +1,8 @@
 # Summary
 
 [Calling Elvis](./guide.md)
-- [Benchmark](./benchmark.md)
+- [Why Elvis?]()
+  - [Benchmark](./benchmark.md)
 - [Library](./lib.md)
   - [Widgets](./widgets.md)
     - [Image](./image.md)
@@ -17,7 +18,8 @@
   - [Values](./values.md)
     - [Color](./color.md)
     - [Unit](./unit.md)
-- [Tutorial](./tutorial.md)
-  - [Widgets](./tutorial/widgets.md)
-- [Contribute](./contribute.md)
+  - [Customize Widgets](./tutorial.md)
+    - [Widgets](./tutorial/widgets.md)
 - [Community](./community.md)
+- [Contributing](./contributing.md)
+
