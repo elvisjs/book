@@ -1,9 +1,6 @@
 # Community
 
-+ [gitter][gitter]
-+ [slack][slack]
-+ [discord][discord]
-+ [telegram][telegram]
+[![Discord Chat](https://img.shields.io/discord/729613877184299019.svg?logo=discord&style=flat-square)](https://discord.gg/dxpefwy)
 
 ## Wechat
 

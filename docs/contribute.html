@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>DOM - The Elvis Book</title>
+        <title>Contribute - The Elvis Book</title>
         
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -81,7 +81,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div id="sidebar-scrollbox" class="sidebar-scrollbox">
-                <ol class="chapter"><li class="expanded affix "><a href="guide.html">Calling Elvis</a></li><li class="expanded "><a href="benchmark.html"><strong aria-hidden="true">1.</strong> Benchmark</a></li><li class="expanded "><a href="lib.html"><strong aria-hidden="true">2.</strong> Javascript Library</a></li><li><ol class="section"><li class="expanded "><a href="widgets.html"><strong aria-hidden="true">2.1.</strong> Widgets</a></li><li><ol class="section"><li class="expanded "><a href="image.html"><strong aria-hidden="true">2.1.1.</strong> Image</a></li><li class="expanded "><a href="text.html"><strong aria-hidden="true">2.1.2.</strong> Text</a></li></ol></li><li class="expanded "><a href="dom.html" class="active"><strong aria-hidden="true">2.2.</strong> DOM</a></li><li class="expanded "><a href="events.html"><strong aria-hidden="true">2.3.</strong> Events*</a></li><li class="expanded "><a href="gestures.html"><strong aria-hidden="true">2.4.</strong> Gestures*</a></li><li class="expanded "><a href="layout.html"><strong aria-hidden="true">2.5.</strong> Layout</a></li><li><ol class="section"><li class="expanded "><a href="flex.html"><strong aria-hidden="true">2.5.1.</strong> Flex</a></li><li class="expanded "><a href="grid.html"><strong aria-hidden="true">2.5.2.</strong> Grid</a></li><li class="expanded "><a href="multi_column.html"><strong aria-hidden="true">2.5.3.</strong> MultiColumn</a></li></ol></li><li class="expanded "><a href="router.html"><strong aria-hidden="true">2.6.</strong> Router</a></li><li class="expanded "><a href="values.html"><strong aria-hidden="true">2.7.</strong> Values</a></li><li><ol class="section"><li class="expanded "><a href="color.html"><strong aria-hidden="true">2.7.1.</strong> Color</a></li><li class="expanded "><a href="unit.html"><strong aria-hidden="true">2.7.2.</strong> Unit</a></li></ol></li></ol></li><li class="expanded "><a href="tutorial.html"><strong aria-hidden="true">3.</strong> Tutorial</a></li><li><ol class="section"><li class="expanded "><a href="tutorial/widgets.html"><strong aria-hidden="true">3.1.</strong> Widgets</a></li></ol></li><li class="expanded "><a href="contribute.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li class="expanded "><a href="community.html"><strong aria-hidden="true">5.</strong> Community</a></li></ol>
+                <ol class="chapter"><li class="expanded affix "><a href="guide.html">Calling Elvis</a></li><li class="expanded "><a href="benchmark.html"><strong aria-hidden="true">1.</strong> Benchmark</a></li><li class="expanded "><a href="lib.html"><strong aria-hidden="true">2.</strong> Javascript Library</a></li><li><ol class="section"><li class="expanded "><a href="widgets.html"><strong aria-hidden="true">2.1.</strong> Widgets</a></li><li><ol class="section"><li class="expanded "><a href="image.html"><strong aria-hidden="true">2.1.1.</strong> Image</a></li><li class="expanded "><a href="text.html"><strong aria-hidden="true">2.1.2.</strong> Text</a></li></ol></li><li class="expanded "><a href="dom.html"><strong aria-hidden="true">2.2.</strong> DOM</a></li><li class="expanded "><a href="events.html"><strong aria-hidden="true">2.3.</strong> Events*</a></li><li class="expanded "><a href="gestures.html"><strong aria-hidden="true">2.4.</strong> Gestures*</a></li><li class="expanded "><a href="layout.html"><strong aria-hidden="true">2.5.</strong> Layout</a></li><li><ol class="section"><li class="expanded "><a href="flex.html"><strong aria-hidden="true">2.5.1.</strong> Flex</a></li><li class="expanded "><a href="grid.html"><strong aria-hidden="true">2.5.2.</strong> Grid</a></li><li class="expanded "><a href="multi_column.html"><strong aria-hidden="true">2.5.3.</strong> MultiColumn</a></li></ol></li><li class="expanded "><a href="router.html"><strong aria-hidden="true">2.6.</strong> Router</a></li><li class="expanded "><a href="values.html"><strong aria-hidden="true">2.7.</strong> Values</a></li><li><ol class="section"><li class="expanded "><a href="color.html"><strong aria-hidden="true">2.7.1.</strong> Color</a></li><li class="expanded "><a href="unit.html"><strong aria-hidden="true">2.7.2.</strong> Unit</a></li></ol></li></ol></li><li class="expanded "><a href="tutorial.html"><strong aria-hidden="true">3.</strong> Tutorial</a></li><li><ol class="section"><li class="expanded "><a href="tutorial/widgets.html"><strong aria-hidden="true">3.1.</strong> Widgets</a></li></ol></li><li class="expanded "><a href="contribute.html" class="active"><strong aria-hidden="true">4.</strong> Contribute</a></li><li class="expanded "><a href="community.html"><strong aria-hidden="true">5.</strong> Community</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -148,76 +148,44 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#dom" id="dom">DOM</a></h1>
-<p>Like the other UI libraries, webassemblly Elvis arms a Virtual-DOM, too.</p>
-<pre><code class="language-js">import { Center, Elvis, GestureDetector, StatefulWidget, Text } from &quot;calling-elvis&quot;;
-
-class MyState extends StatefulWidget {
-  state = {
-    count: 0,
-  }
-  
-  create() {
-    console.log(&quot;The first step is creating the dom.&quot;);
-  }
-  
-  update() {
-    console.log(&quot;Then we can update it, just like what you saw.&quot;);
-  }
-  
-  render() {
-    return Center(
-      GestureDetector(
-        Text(&quot;I'm a Elvis fans.&quot;),
-        onTap: () =&gt; this.setState({ 
-            count: this.count + 1 
-        });
-      ),
-    );
-  }
-  
-  dispose() {
-    console.log(&quot;Don't be crue, if you want to drop me.&quot;);
-  }
-}
+                        <h1><a class="header" href="#contribute" id="contribute">Contribute</a></h1>
+<p>There are some basic tips for someone who wants to contribute to evlis.</p>
+<p>Firstly, welcome to post any questions about evlis via Github Issue, Email, etc. We will give you reaction as soon as possible. </p>
+<h2><a class="header" href="#make-a-change" id="make-a-change">Make A Change</a></h2>
+<ol>
+<li>
+<p>Clone the repository on your local machine.</p>
+<p>When contributing to an open source project using GIT, you will have a copy or “clone” of the source code repository in your local development environment.Here, you can make your changes and commit them locally to create a revision history, allowing changes to be tracked and easily rolled back if required. </p>
+<pre><code class="language-sh">$ git clone https://github.com/elvisjs/elvis.git
 </code></pre>
-<p>I won't tell you that <code>Elvis</code> is not only a <code>React</code> fan but also a <code>Flutter</code> fan, and you'll never know he is a <code>Emacs</code> fan.</p>
-<h2><a class="header" href="#lifecycle" id="lifecycle">LifeCycle</a></h2>
-<p>Already knew you care about lifecycles, Elvis will never force you to recite 11 or more methods, Elvis just got 3, and it is enough ; )</p>
-<p>Furthermore, to be serious, we don't recommend you to write big projects such as <code>facebook</code>, <code>reddit</code>, or <code>twitter</code> calling Elvis, <code>Elvis</code> is under <strong>Proof-of-Concept</strong> for now, and...you know, we <strong>strongly recommend</strong> you to use Elvis building your persenol website, make the web better, more interesting, awesome as it has never been 🌈</p>
-<p>And if you are building a rocky start-up project, believe me, <strong>CALLING ELVIS</strong>, and the force will be with you!</p>
-<p>Life Story, Love and Glory.</p>
-<h3><a class="header" href="#diff" id="diff">Diff</a></h3>
-<p>Elvis' diff algorithm is quite simple <strong>flying with wasm</strong>, we compare the new node and the old one using dps, and then patch the updates to the old one.</p>
-<h3><a class="header" href="#patch" id="patch">Patch</a></h3>
-<p>Elvis prefers to cure the naughty node's father node, if there are complex changes inside it, for Example: </p>
-<pre><code class="language-html">&lt;father :=&quot;I'm the naughty nodes' father&quot;&gt;
-  &lt;naughty&gt;Up&lt;/naughty&gt;
-  &lt;naughty&gt;Side&lt;/naughty&gt;
-  &lt;naughty&gt;Down&lt;/naughty&gt;
-&lt;/father&gt;
+</li>
+<li>
+<p>Build the source </p>
+<p>Evlis is implemented purely in Rust, So, please make sure you have installed <a href="https://www.rust-lang.org/tools/install">Rust</a> before made contributions. There is not specific Rust version requirement, we recommend you to fetch the latest Rust version. </p>
+<p>Once you have installed Rust, type the following in the terminal to start compiling:</p>
+<pre><code class="language-sh">$ cd elvis
+$ cargo build
 </code></pre>
-<p>Now we upside down the <code>Up</code>, <code>Side</code>, <code>Down</code> List:</p>
-<pre><code class="language-html">&lt;father :=&quot;plz don't make me heartbreak for twice.&quot;&gt;
-  &lt;naughty&gt;Down&lt;/naughty&gt;
-  &lt;naughty&gt;Side&lt;/naughty&gt;
-  &lt;naughty&gt;Up&lt;/naughty&gt;
-&lt;/father&gt;
-</code></pre>
-<p>Elvis with not trying to swap <code>&lt;li&gt;Up&lt;/li&gt;</code> and <code>&lt;li&gt;Down&lt;/li&gt;</code>, it will operate DOM twice over, we just replace the whole <code>&lt;ol&gt;...&lt;/ol&gt;</code> for once.</p>
+<p>The resulting binary can be found in <code>evlis/target/debug</code>.</p>
+</li>
+</ol>
+<h2><a class="header" href="#raising-a-pull-request" id="raising-a-pull-request">Raising A Pull Request</a></h2>
+<p>Once you feel satisfied with the changes, you can raise a pull request on Github.</p>
+<p>Our maintainer will then approve the changes or request some changes before it get merged.</p>
+<p>Happy contributions!</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
-                            <a rel="prev" href="text.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="tutorial/widgets.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
                         
 
                         
-                            <a rel="next" href="events.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="community.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -229,13 +197,13 @@ class MyState extends StatefulWidget {
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
-                    <a href="text.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a href="tutorial/widgets.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
                 
 
                 
-                    <a href="events.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a href="community.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
