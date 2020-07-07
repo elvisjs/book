@@ -1322,7 +1322,7 @@ cause every <code>StatefulWidget</code> got a reflect <code>pointer</code> in wa
 <h1><a class="header" href="#community-1" id="community-1">Community</a></h1>
 <p><a href="https://discord.gg/dxpefwy"><img src="https://img.shields.io/discord/729613877184299019.svg?logo=discord&amp;style=flat-square" alt="Discord Chat" /></a></p>
 <h2><a class="header" href="#wechat" id="wechat">Wechat</a></h2>
-<p><img src="/static/wechat.png" alt="wechat-qr-code" /></p>
+<p><img src="../static/wechat.png" alt="wechat-qr-code" /></p>
 <h1><a class="header" href="#contribute" id="contribute">Contribute</a></h1>
 <p>There are some basic tips for someone who wants to contribute to evlis.</p>
 <p>Firstly, welcome to post any questions about evlis via Github Issue, Email, etc. We will give you reaction as soon as possible. </p>
@@ -1370,21 +1370,6 @@ $ cargo build
 
         </div>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3000/__livereload");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         

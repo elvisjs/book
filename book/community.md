@@ -4,7 +4,7 @@
 
 ## Wechat
 
-![wechat-qr-code](/static/wechat.png)
+![wechat-qr-code](../static/wechat.png)
 
 
 [gitter]: https://gitter.im/elvisjs/community
