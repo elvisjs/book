@@ -1,6 +1,8 @@
 # Summary
 
 [Calling Elvis](./guide.md)
+- [Arch](./arch/README.md)
+  - [core](./arch/core.md)
 - [Why Elvis?]()
   - [Benchmark](./benchmark.md)
 - [Library](./lib.md)
