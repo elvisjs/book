@@ -1,6 +1,13 @@
 # Summary
 
 [Calling Elvis](./guide.md)
+- [Arch](./arch/README.md)
+  - [backend](./arch/backend.md)
+  - [core](./arch/core.md)
+  - [derive](./arch/derive.md)
+  - [epm](./arch/epm.md)
+  - [support](./arch/support.md)
+  - [web](./arch/web.md)
 - [Why Elvis?]()
   - [Benchmark](./benchmark.md)
 - [Library](./lib.md)
